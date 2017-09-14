@@ -1,0 +1,11 @@
+{
+  "name": "npmsniff",
+  "version": "1.0.1",
+  "description": "this is the npmsniff publish from indy",
+  "main": "index-npmsniff.js",
+  "scripts": {
+    "test": "setup.bash"
+  },
+  "author": "anonymous",
+  "license": "ISC"
+}
