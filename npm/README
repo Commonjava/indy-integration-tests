@@ -1,0 +1,23 @@
+#1 folder: etc/ is all the indy config needed.
+
+#2 After a indy instance setup, use the scripts in folder: test/repo-creation to create different types of npm repos.
+
+#3 file: test/.npmrc configures the default npm registry, copy that to ~/.npmrc
+  Use the scripts in folder: test/repo-switch to indicate and switch between different npm repos.
+  Or simply use the command: npm install ** -save --registory=http://indy.local:8080/api/content/npm/{storetype}/{store}
+
+#4 npm install
+  Go into the folder: test/npm-install, execute command: ‘npm install’ (using package.json to state the dependencies), or npm install npmsniff@version
+  Check the contents under /node_modules and ~/.npm folders in local to verify the install success.
+
+#5 npm publish
+  Go into the folder: test/npm-publish/npmsniff, execute command: ‘npm publish .’
+  ‘+ npmsniff@1.0.1’ will show on the terminal which verify publish success.
+  Tarball and metadata will be generated, merged and stored in indy file system.
+
+#6 npm re-publish
+  Update some meta infos or versions in folder test/npm-publish/npmsniff, and re-execute the step #5, tarball and metadata will also be updated.
+
+#7 npm meta merging for group
+  Ensure the scripts of create-hosted-h1.sh and create-remote-r1.sh were executed before create-group-g1.sh
+  Execute step#5 on the group, and then #4 on the group too for any version you want to install, you’ll see the merged package.json working for any npm requests.

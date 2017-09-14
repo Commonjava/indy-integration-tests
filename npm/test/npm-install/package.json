@@ -1,0 +1,6 @@
+{
+  "private" : true,
+  "devDependencies" : {
+    "npmsniff" : "^1.0.0"
+  }
+}
