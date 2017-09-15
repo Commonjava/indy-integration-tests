@@ -1,0 +1,7 @@
+build:
+  threads: 1
+  git-branch: indy-1.2.x
+  builds: 1
+report:
+  threads: 2
+
