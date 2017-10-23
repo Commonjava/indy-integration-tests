@@ -1,0 +1,10 @@
+{
+  "type" : "group",
+  "key" : "group:public",
+  "disabled" : false,
+  "constituents" : [ "remote:central", "remote:mrrc" ],
+  "doctype" : "group",
+  "name" : "public",
+  "disable_timeout" : -1,
+  "path_style" : "plain"
+}

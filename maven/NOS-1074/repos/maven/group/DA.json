@@ -1,0 +1,11 @@
+{
+  "packageType": "maven",
+  "type" : "group",
+  "key" : "maven:group:DA",
+  "disabled" : false,
+  "constituents" : [ "maven:group:public" ],
+  "doctype" : "group",
+  "name" : "DA",
+  "disable_timeout" : -1,
+  "path_style" : "plain"
+}

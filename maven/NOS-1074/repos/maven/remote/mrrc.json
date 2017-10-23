@@ -1,0 +1,21 @@
+{
+  "packageType": "maven",
+  "type" : "remote",
+  "key" : "maven:remote:mrrc",
+  "disabled" : false,
+  "host" : "maven.repository.redhat.com",
+  "port" : 80,
+  "doctype" : "remote",
+  "name" : "mrrc",
+  "disable_timeout" : -1,
+  "path_style" : "plain",
+  "allow_snapshots" : false,
+  "allow_releases" : true,
+  "url" : "https://maven.repository.redhat.com/ga/",
+  "timeout_seconds" : 0,
+  "nfc_timeout_seconds" : 0,
+  "is_passthrough" : false,
+  "cache_timeout_seconds" : 0,
+  "metadata_timeout_seconds" : 0,
+  "proxy_port" : 0
+}

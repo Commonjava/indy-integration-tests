@@ -1,0 +1,10 @@
+{
+  "type" : "group",
+  "key" : "group:DA",
+  "disabled" : false,
+  "constituents" : [ "group:public" ],
+  "doctype" : "group",
+  "name" : "DA",
+  "disable_timeout" : -1,
+  "path_style" : "plain"
+}

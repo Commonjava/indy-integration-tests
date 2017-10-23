@@ -1,0 +1,14 @@
+{
+  "packageType": "maven",
+  "type" : "hosted",
+  "key" : "maven:hosted:local-deployments",
+  "disabled" : false,
+  "snapshotTimeoutSeconds" : 86400,
+  "readonly" : false,
+  "doctype" : "hosted",
+  "name" : "local-deployments",
+  "disable_timeout" : 0,
+  "path_style" : "plain",
+  "allow_snapshots" : true,
+  "allow_releases" : true
+}

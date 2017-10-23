@@ -1,0 +1,11 @@
+{
+  "packageType": "maven",
+  "type" : "group",
+  "key" : "maven:group:public",
+  "disabled" : false,
+  "constituents" : [ "maven:remote:central", "maven:remote:mrrc" ],
+  "doctype" : "group",
+  "name" : "public",
+  "disable_timeout" : -1,
+  "path_style" : "plain"
+}
