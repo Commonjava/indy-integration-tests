@@ -21,3 +21,6 @@
 #7 npm meta merging for group
   Ensure the scripts of create-hosted-h1.sh and create-remote-r1.sh were executed before create-group-g1.sh
   Execute step#5 on the group, and then #4 on the group too for any version you want to install, you’ll see the merged package.json working for any npm requests.
+
+# create a spesific mw npm registry repo for indy
+sh create-remote-mw.sh {mw-npm-registry-url}
