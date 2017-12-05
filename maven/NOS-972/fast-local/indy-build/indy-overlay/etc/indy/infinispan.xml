@@ -37,7 +37,7 @@
       <eviction strategy="LRU" size="200000" type="COUNT"/>
       <persistence>
         <jdbc:string-keyed-jdbc-store fetch-state="false" read-only="false" purge="false" key-to-string-mapper="org.commonjava.indy.content.index.ISPFieldStringKey2StringMapper">
-          <jdbc:connection-pool connection-url="jdbc:postgresql://localhost/indy" username="indy" password="indy" driver="org.postgresql.Driver"/>
+          <jdbc:connection-pool connection-url="jdbc:postgresql://127.0.0.1/indy" username="indy" password="indy" driver="org.postgresql.Driver"/>
           <jdbc:string-keyed-table drop-on-exit="false" create-on-start="true" prefix="INDY_CACHE">
             <jdbc:id-column name="ID_COLUMN" type="TEXT" />
             <jdbc:data-column name="DATA_COLUMN" type="BYTEA" />
