@@ -1,22 +1,22 @@
-proxy-port: 8081
+#proxy-port: 8081
 build:
   threads: 6
   git-branch: test
-  builds: 30
+  builds: 15
 report:
   threads: 2
-vagrant:
-  pre-build:
-    run:
-      - 
-        host: indy
-        commands:
-          - "sudo rm -rf /tmp/build*"
-          - "sudo systemctl stop indy"
-          - "sudo systemctl start indy"
-        wait-for-indy: true
-  build: 
-    
-  post-build:
-    copy:
-      'indy:/opt/indy/var/log/indy/': '{project_dir}/indy-logs/'
+#vagrant:
+#  pre-build:
+#    run:
+#      - 
+#        host: indy
+#        commands:
+#          - "sudo rm -rf /tmp/build*"
+#          - "sudo systemctl stop indy"
+#          - "sudo systemctl start indy"
+#        wait-for-indy: true
+#  build: 
+#    
+#  post-build:
+#    copy:
+#      'indy:/opt/indy/var/log/indy/': '{project_dir}/indy-logs/'
